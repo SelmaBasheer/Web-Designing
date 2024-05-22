@@ -1,0 +1,393 @@
+/* .header{
+    background-color: grey;
+    height: 100px;
+} */
+body{
+    margin: 0;
+    color: black;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.container{
+    height: 100%;
+}
+.header{
+    height: 53px;
+    max-width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0;
+}
+
+.logo-img{
+    width: 108px;
+    height: 23px;
+    float: left;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+
+
+.left-header-list{
+    display: flex;
+    list-style-type: none;
+    padding-top: 0px;
+    float: left;
+    
+}
+.right-header-list{
+    float: right;
+    list-style-type: none;
+    padding-top: 0px;
+    display: flex;
+}   
+.left-header-content, .right-header-content{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.right-header{
+    float: right;
+    padding-right: 50px;
+    color: black;
+    background-color: aliceblue;
+}
+.content-img{
+    width: 100%;
+    height: 577.188px;
+    position: relative;
+ 
+}
+.img-text{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    width: 600px;
+    
+}
+.img-content-heading{
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.new-btn{
+    color: black;
+    background-color: #ffb900;
+    border: 0;
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.img-content-heading{
+    font-size: 2.3125rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.learnMore-btn{
+    color: white;
+    background-color: #0067b8;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    border: 0;
+    height: 40px;
+    width: 100px;
+    margin-top: 8px;
+    border: 2px;
+    padding-left: 12;
+}
+
+.flex2-learnMore-btn{
+    margin-left: 30px;
+    margin-top: 0 !important;
+    margin-bottom: 20px;
+    font-weight: 600 !important;
+}
+
+.flex2-button2{
+    margin-top: 10px !important;
+}
+
+.img-content{
+    line-height: 25px;
+}
+
+.icon-div{
+     margin: 2% 30%; 
+     padding-top: 50px;
+     
+}
+
+.icon-div a{
+    font-weight: 600;
+    text-decoration: underline;
+}
+.icon-color{
+    color: #0067b8;
+}
+th,td{
+    padding-right: 45px;
+    }
+td{
+    padding-top: 1px;
+}
+
+.shop-xbox, .microsoft-365, .get-windows-11, .surface-devices {
+    width: 40px;
+    height: 40px;
+}
+
+.flex-div{
+    padding-left: 7%;
+    display: flex;
+    
+}
+.flex-div1{
+    width: 380px;
+    height: 485px;
+    margin-top: 50px;
+    margin-right: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flex-div2{
+    width: 382px;
+    height: 500px;
+    margin-top: 0;
+    margin-right: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.lower-flex-div{
+    margin-top: 0 !important;
+}
+
+.flex-img1{
+    width: 100%;
+    height: 215px;
+}
+
+.flex-header, .flex-para{ 
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+
+.flex-header {
+    font-family: inherit;
+    line-height: 1.2;
+    font-weight: 600;
+    font-size: 1.8125rem;
+    margin-bottom: 1rem;
+}
+
+.flex2-header{
+    margin-top: 5px;
+    font-weight: 500 !important;
+}
+
+.flex2-header234{
+    margin-top: 48px;
+}
+
+.flex-para{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.flex-button1, .flex-button2, .flex-button3{
+    margin-left: 30px;
+    color: white;
+    background-color: #0067b8;
+    border: none;
+    padding: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.flex-a-tag{
+    color: #0067b8;
+    padding-left: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.flex-button2{
+    margin-top: 80px;
+    font-weight: 600;
+}
+
+.flex-button3{
+    margin-top: 58px;
+}
+
+.flex2-button3{
+    margin-top: 20px !important;
+}
+
+.flex2-button4{
+    margin-top: 50px !important;
+}
+
+.middle-img-div{
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-img-text{
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    width: 400px;
+    
+}
+
+.downloadApp-btn{
+    color: white;
+    background-color: #0067b8;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    border: 0;
+    height: 40px;
+    width: 190px;
+}
+
+.for-business{
+    font-size: 2.3125rem;
+    margin-bottom: 1.25rem;
+    margin-left: 7%;
+    margin-top: 5%;
+    font-weight: 500;
+}
+
+.flex-new-btn{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.socialmedia-list{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.socialmedia-icon{
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
+}
+
+.socialmedia-footer{
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+#follow-text{
+   padding: 5px; 
+}
+
+.back-to-top-btn{
+    /* margin-right: 7%; */
+    float: right;
+    background-color: rgb(211, 208, 208);
+    border: 0;
+    height: 40px;
+    width: 150px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.back-to-top-btn:hover{
+    background-color: white;
+}
+
+.back-to-top-btn a:hover{
+    text-decoration: none !important;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: white;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: #f2f2f2;
+    margin-top: 110px;
+    
+}
+
+.footer-table{
+    padding-top: 40px;
+    padding-left: 120px;
+}
+
+.footer-table th, .footer-table td{
+    padding-right: 150px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+
+.footer-table th{
+    font-weight: 500;
+    font-size: medium;
+}
+
+.footer-table td{
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.end-footer-tag{
+    padding-top: 150px;
+    padding-left: 12px;
+}
+
+.left-footer-list, .right-footer-list{
+    display: flex;
+    right: 40px;
+    font-size: smaller;
+    list-style-type: none;
+    padding-left: 120px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+.left-footer-list{
+    float: left;
+}
+.right-footer-list{
+    float: right;
+    padding-right: 120px;
+}
+
+.footer-list-item{
+    padding-right: 15px;
+    font-size: smaller;
+}
+
